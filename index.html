@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Modal</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="./modal.js" defer>  </script>
+  <style>
+    #modal.open {
+      display: block;
+      text-align: center;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    #overlay.open {
+      display: block;
+    }
+  </style>
+  <!-- TODO: 1. Link the script tag -->
+</head>
+<body>
+  <button id="open-modal-btn">Open Modal</button>
+
+  <div id="overlay"></div>
+
+  <div id="modal" class="hide">
+    <h3>This is a modal</h3>
+    <button id="close-modal-btn">Close Modal</button>
+  </div>
+</body>
+</html>
