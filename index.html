@@ -1,34 +1,24 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Modal</title>
+  <title>Midi Piano</title>
+  <script src="script.js" defer></script>
   <link rel="stylesheet" href="styles.css">
-  <script src="./modal.js" defer>  </script>
-  <style>
-    #modal.open {
-      display: block;
-      text-align: center;
-    }
-
-    .hide {
-        display: none;
-    }
-
-    #overlay.open {
-      display: block;
-    }
-  </style>
-  <!-- TODO: 1. Link the script tag -->
 </head>
 <body>
-  <button id="open-modal-btn">Open Modal</button>
-
-  <div id="overlay"></div>
-
-  <div id="modal" class="hide">
-    <h3>This is a modal</h3>
-    <button id="close-modal-btn">Close Modal</button>
+  <div class="piano">
+    <div data-note="C" class="key white"></div>
+    <div data-note="Db" class="key black"></div>
+    <div data-note="D" class="key white"></div>
+    <div data-note="Eb" class="key black"></div>
+    <div data-note="E" class="key white"></div>
+    <div data-note="F" class="key white"></div>
+    <div data-note="Gb" class="key black"></div>
+    <div data-note="G" class="key white"></div>
+    <div data-note="Ab" class="key black"></div>
+    <div data-note="A" class="key white"></div>
+    <div data-note="Bb" class="key black"></div>
+    <div data-note="B" class="key white"></div>
   </div>
 </body>
 </html>
